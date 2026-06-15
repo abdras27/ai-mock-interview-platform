@@ -1,62 +1,171 @@
-# Firebase Studio
+🎤 AI Mock Interview Platform
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚀 Overview
 
-This is a NextJS starter in Firebase Studio.
+AI Mock Interview Platform is an intelligent interview preparation system designed to help candidates practice technical interviews, coding challenges, and aptitude assessments in a realistic environment. The platform combines speech analysis, coding evaluation, performance tracking, and AI-assisted assessment to provide users with a comprehensive interview preparation experience.
 
-To get started, take a look at `src/app/page.tsx`.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✨ Key Features
 
-## Interview Evaluation Setup
+• Technical Interview Simulation
+• Coding Assessments
+• Aptitude Tests
+• Speech-to-Text Analysis
+• Performance Evaluation
+• Interview Reports
+• Google Authentication
+• Coding Environment Integration
+• Interview History Tracking
+• Dashboard Analytics
+• Camera-Based Interview Monitoring
+• Firebase Integration
 
-Interview evaluation uses `POST /api/evaluate`.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🛠️ Tech Stack
 
-- If `TRAINED_MODEL_API_URL` is set, requests are forwarded to your trained model endpoint.
-- If `TRAINED_MODEL_API_URL` is not set, the app uses a built-in local fallback evaluator so you can run without external infrastructure.
+Frontend
+• Next.js
+• React
+• TypeScript
 
-Set these environment variables only when using your trained model service:
+Backend
+• Python
+• FastAPI
 
-- `TRAINED_MODEL_API_URL`: Full URL of your model inference endpoint.
-- `TRAINED_MODEL_API_KEY` (optional): Bearer token sent as `Authorization` header.
+Database
+• Firebase Firestore
 
-Expected request payload:
+Authentication
+• Firebase Authentication
+• Google Sign-In
 
-```json
-{
-  "interview": [
-    {
-      "question": "string",
-      "transcript": "string",
-      "videoFrames": ["data:image/jpeg;base64,..."]
-    }
-  ]
-}
-```
+Coding Platform
+• Judge0 API
 
-## Authentication and User-Wise Cloud History
+AI & Evaluation
+• AI-Based Interview Scoring
+• Speech Analysis
+• Performance Evaluation Engine
 
-The app supports Google sign-in via Firebase Authentication and stores history per user in Firestore.
+Deployment Ready
+• Firebase App Hosting
 
-Add these values to `.env.local` to enable auth + user-wise cloud persistence:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🏗️ System Workflow
 
-- `NEXT_PUBLIC_FIREBASE_API_KEY`
-- `NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN`
-- `NEXT_PUBLIC_FIREBASE_PROJECT_ID`
-- `NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET`
-- `NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID`
-- `NEXT_PUBLIC_FIREBASE_APP_ID`
+User Login
+↓
+Interview Selection
+↓
+Technical / Coding / Aptitude Round
+↓
+Speech Analysis
+↓
+Answer Evaluation
+↓
+Performance Scoring
+↓
+Interview Report Generation
+↓
+Dashboard Analytics
 
-If these are missing, authentication and Firestore history are disabled.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📂 Project Structure
 
-Open `/login` and sign in to access Firestore-backed history.
+frontend/
+├── src/
+├── app/
+├── components/
+├── context/
+└── services/
 
-Expected response payload:
+backend/
+├── app/
+├── routes/
+├── services/
+└── models/
 
-```json
-{
-  "knowledge": { "score": 0, "improvementTip": "string" },
-  "logicalReasoning": { "score": 0, "improvementTip": "string" },
-  "communicationClarity": { "score": 0, "improvementTip": "string" },
-  "confidence": { "score": 0, "improvementTip": "string" },
-  "timeManagement": { "score": 0, "improvementTip": "string" },
-  "facialPresence": { "score": 0, "improvementTip": "string" },
-  "overallFeedback": "string"
-}
-```
+README.md
+requirements.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚙️ Core Modules
+
+Authentication Module
+Handles secure Google Sign-In and user session management using Firebase Authentication.
+
+Interview Engine
+Conducts technical interview sessions and manages interview workflows.
+
+Coding Assessment Module
+Integrates Judge0 for code execution and coding challenge evaluation.
+
+Speech Analysis Module
+Captures user responses and performs speech-to-text analysis during interview sessions.
+
+Performance Evaluation Module
+Analyzes responses and generates performance scores and interview insights.
+
+Dashboard Module
+Displays interview history, assessment scores, and user performance analytics.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 Key Functionalities
+
+• Technical Interview Questions
+• Coding Challenges
+• Aptitude Assessments
+• Speech Analysis
+• Google Authentication
+• AI-Assisted Evaluation
+• Performance Tracking
+• Interview Reports
+• Dashboard Analytics
+• Interview History Storage
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💡 Challenges Solved
+
+• Interview Preparation
+• Coding Skill Assessment
+• Speech-Based Response Analysis
+• Performance Tracking
+• Interview Report Generation
+• User Authentication
+• Realistic Interview Simulation
+• Automated Evaluation Workflows
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📈 Future Enhancements
+
+• AI-Generated Interview Questions
+• Resume-Based Interview Generation
+• Behavioral Interview Analysis
+• Multi-Language Support
+• Advanced Analytics Dashboard
+• Real-Time Interview Feedback
+• Company-Specific Interview Preparation
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 Learning Outcomes
+
+• Full Stack Development
+• FastAPI Development
+• Next.js Development
+• Firebase Authentication
+• Firestore Integration
+• Judge0 Integration
+• Speech Analysis
+• AI-Based Evaluation Systems
+• REST API Design
+• Performance Analytics
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+👨‍💻 Author
+
+Abdul Rasheed
+
+GitHub:
+https://github.com/abdras27
+
+LinkedIn:
+https://www.linkedin.com/in/abdul-rasheed-768281281/
