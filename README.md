@@ -7,6 +7,7 @@
 AI Mock Interview Platform is an intelligent interview preparation system designed to help candidates practice technical interviews, coding challenges, and aptitude assessments in a realistic environment. The platform combines speech analysis, coding evaluation, performance tracking, and AI-assisted assessment to provide users with a comprehensive interview preparation experience.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 ✨ Key Features
 
 • Technical Interview Simulation
@@ -23,6 +24,7 @@ AI Mock Interview Platform is an intelligent interview preparation system design
 • Firebase Integration
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 🛠️ Tech Stack
 
 Frontend
@@ -53,6 +55,7 @@ Deployment Ready
 • Firebase App Hosting
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 🏗️ System Workflow
 
 User Login
@@ -72,6 +75,7 @@ Interview Report Generation
 Dashboard Analytics
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 📂 Project Structure
 
 frontend/
@@ -91,6 +95,7 @@ README.md
 requirements.txt
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 ⚙️ Core Modules
 
 Authentication Module
@@ -112,6 +117,7 @@ Dashboard Module
 Displays interview history, assessment scores, and user performance analytics.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 📊 Key Functionalities
 
 • Technical Interview Questions
@@ -126,6 +132,7 @@ Displays interview history, assessment scores, and user performance analytics.
 • Interview History Storage
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 💡 Challenges Solved
 
 • Interview Preparation
@@ -138,6 +145,7 @@ Displays interview history, assessment scores, and user performance analytics.
 • Automated Evaluation Workflows
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 📈 Future Enhancements
 
 • AI-Generated Interview Questions
@@ -149,6 +157,8 @@ Displays interview history, assessment scores, and user performance analytics.
 • Company-Specific Interview Preparation
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
 🎯 Learning Outcomes
 
 • Full Stack Development
@@ -163,6 +173,7 @@ Displays interview history, assessment scores, and user performance analytics.
 • Performance Analytics
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 👨‍💻 Author
 
 Abdul Rasheed
